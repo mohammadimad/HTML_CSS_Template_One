@@ -1,0 +1,73 @@
+/* css */
+body {
+ margin: 0;
+ font-family: Arial, sans-serif;
+ line-height: 1.6;
+ background-color: #f4f4f4;
+ color: #333;
+}
+.site-header, .site-footer {
+            background-color: #333;
+            color: #fff;
+           text-align: center;
+            padding: 1em 0;
+}
+
+.site-header h1 {
+    margin: 0;
+}
+        .site-main {
+            padding: 1em;
+            max-width: 1200px;
+            margin: 0 auto; 
+        }
+       
+        .content-block, .sidebar-block{
+            background-color: #fff;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 5px;
+        }
+    @media (min-width: 768px){
+            .site-main {
+                display: flex; 
+                gap: 1em;       
+            }
+        
+            .content-block {
+                flex: 2; 
+                margin-bottom: 0; 
+            }
+        
+            .sidebar-block {
+                flex: 1; 
+                margin-bottom: 0;
+            }
+        }
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, intital-scale=1.0"/>
+    <time >Leon One</time>
+    <link rel="stylesheet" href="css/leon.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Hi Mohammad</h1>
+    </header>
+    <main class="site-main">
+        <article class="content-block">
+            <h2></h2>
+            <p>MOMGAE GAE  AGEAG AGE AG AGEG AGEAGE GAEAEG</p>
+        </article>
+        <aside class="sidebar-block">
+            <h3>Sidebar</h3>
+            <p>This is a sidebar. It might contain links or secondary information.</p>
+        </aside>
+    </main>
+    <footer class="site-footer">
+        <p>© 2023 Responsive Practice</p>
+    </footer>
+</body>
+</html>
